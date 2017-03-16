@@ -1,0 +1,16 @@
+.react-edit-inline-label {
+    display: inline-block;
+    width: 12rem;
+    position: relative;
+    padding: .2rem 1rem .2rem 0;
+}
+
+.react-edit-inline-icon:after {
+    content: '\f040';
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
